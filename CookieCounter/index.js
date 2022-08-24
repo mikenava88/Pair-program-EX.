@@ -11,7 +11,7 @@ const h1 = document.querySelector(".num")
 
 let i = 0;
 
-cookiebutton.addEventListener('click', function counter() {
+cookiebutton.addEventListener('click', function () {
 
     i += 1;
     h1.innerText = "Number of cookies: " + i;
