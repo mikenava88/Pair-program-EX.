@@ -1,15 +1,23 @@
-.cookie {
-background-color: aquamarine;
+body{
+    background-color: rgb(177, 215, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
+.cookie{
 min-width: 20vw;
 min-height: 20vw;
-
-
-
+margin: 30vw;
 }
 
 button {
-
 min-width: max-content;
-min-height: 30px;
+/* min-height: 30px; */
+border-radius: 10px;
+/* align */
+}
 
+.counter{
+    min-width:100%;
 }

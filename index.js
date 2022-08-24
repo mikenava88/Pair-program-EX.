@@ -14,7 +14,7 @@ let i = 0;
 cookiebutton.addEventListener('click', function counter() {
 
     i += 1;
-    h1.innerText = i;
+    h1.innerText = "Number of cookies: " + i;
 });
 
 
